@@ -1,4 +1,5 @@
 import { App, Editor, MarkdownView, Modal, Notice, Plugin } from "obsidian";
+import { Database, verbose } from "sqlite3";
 
 import {
 	DEFAULT_SETTINGS,
@@ -13,6 +14,10 @@ export default class MyPlugin extends Plugin {
 
 	async onload() {
 		await this.loadSettings();
+
+		// FIX: Can not seem to initialize a database. Is this a permissions problem? Can it only access files within its own directory? How can I set this up?
+		// TODO: set location of the database
+		// const db = new Database("PATH_TO_DATABASE");
 
 		// This creates an icon in the left ribbon.
 		this.addRibbonIcon("dice", "Sample", (evt: MouseEvent) => {
