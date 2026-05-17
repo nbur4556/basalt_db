@@ -1,4 +1,5 @@
 # Obsidian Sample Plugin
+%%TODO: UPdate the README, be sure to credit the Obsidian Sample Plugin as a template%%
 
 This is a sample plugin for Obsidian (https://obsidian.md).
 
