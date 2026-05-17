@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
-	"version": "1.0.0",
+	"id": "basalt_db",
+	"name": "Basalt DB",
+	"version": "0.0.1",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "Manage your personal database within Obsidian.",
+	"author": "Nick",
+	"authorUrl": "https:/github.com/nbur4556",
+	"fundingUrl": "https:/github.com/nbur4556",
 	"isDesktopOnly": false
 }
