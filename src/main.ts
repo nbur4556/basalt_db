@@ -1,4 +1,5 @@
 import { App, Editor, MarkdownView, Modal, Notice, Plugin } from "obsidian";
+
 import {
 	DEFAULT_SETTINGS,
 	MyPluginSettings,
